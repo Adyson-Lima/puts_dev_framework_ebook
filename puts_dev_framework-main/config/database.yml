@@ -1,0 +1,7 @@
+default : &default
+  host: localhost
+  user: adyson
+  password: adyson2023
+development:
+  <<: *default
+  dbname: project
